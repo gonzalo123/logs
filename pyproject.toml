@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "logs"
+version = "0.1.0"
+description = ""
+authors = ["Gonzalo Ayuso <gonzalo123@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^3.0.3"
+pydantic = "^2.9.1"
+flask-pydantic = "^0.12.0"
+requests = "^2.32.3"
+dbutils3-gonzalo123 = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

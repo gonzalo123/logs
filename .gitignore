@@ -1,0 +1,14 @@
+/venv/
+/src/front/node_modules
+/src/front/dist
+
+node_modules
+
+.idea
+.vscode
+
+.cache
+.local
+
+src/logs/*.log*
+src/env/local/.env
